@@ -47,6 +47,8 @@
             <tr>
             <td style="padding:20px;padding-top:0px;width:100%;vertical-align:middle">
               <heading>News</heading>
+              <p><b>[Feb 2024]</b> Our new work, <a href="https://counterfeit-code.github.io/">the counterfeit conundrum</a>, questions the ability of code language models to understand their own incorrect generations.</p>
+              <p><b>[Feb 2024]</b> Released <a href="https://huggingface.co/blog/starcoder2">StarCoder2</a>, a new family of code LMs achieving SoTA on many code generation tasks for models of the same size.</p>
               <p><b>[Jan 2024]</b> Check out our new benchmark, <a href="https://crux-eval.github.io/">CRUXEval</a>, designed to test the ability of code LMs to perform code execution reasoning!</p>
               <p><b>[Dec 2023]</b> <a href="https://arxiv.org/abs/2310.15164">LINC</a>, a neurosymbolic approach to logical reasoning, received an <b>outstanding paper award</b> at EMNLP 2023!</p>
               <p><b>[Oct 2023]</b> Released <a href="https://arxiv.org/abs/2310.16803">Language Agnostic Code Embeddings</a>, an approach to separate syntax and semantics for code embeddings!</p>
@@ -93,6 +95,61 @@
               <heading>Publications</heading>
             </td>
           </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two">
+              <img src='images/counterfeit.png' width="160">
+              </div>
+            </div>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://counterfeit-code.github.io/paper/counterfeit-conundrum.pdf">
+              <papertitle>
+                🕵️ The Counterfeit Conundrum: Can Code Language Models Grasp the Nuances of Their Incorrect Generations?
+              </papertitle>
+            </a>
+            <br>
+            <strong>Alex Gu</strong>, Wen-Ding Li*, Naman Jain*, Theo X. Olausson*, Celine Lee*, Koushik Sen, Armando Solar-Lezama 
+            <br>
+            <p></p>
+            <p>
+              In <a href="https://counterfeit-code.github.io">The Counterfeit Conundrum</a>, we analyze the ability of
+              open code language models to understand their <i>counterfeit samples</i>. These are samples that 
+              1) have a high enough log-probability to be generated at a moderate temperature, 2) are incorrect, 
+              but 3) pass weak correctness checks. We find that open code LMs 1) think counterfeits are correct,
+              2) execute them as if they were correct, and 3) can't repair them without feedback.
+            </p>
+          </td>
+        </tbody></table>
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two">
+              <img src='images/bigcode.jpg' width="160">
+              </div>
+            </div>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/2402.19173">
+              <papertitle>
+                StarCoder2 and The Stack v2: The Next Generation
+              </papertitle>
+            </a>
+            <br>
+            Anton Lozhkov, ..., <strong>Alex Gu</strong>, ..., Leandro von Werra*, Harm de Vries*
+            <br>
+            <p></p>
+            <p>
+              We train new models with 3B, 7B, and 15B on Software Heritage source code including 619 programming 
+              languages and high-quality data sources like GitHub pull requests, Kaggle notebooks, and code documentation. 
+              Our models outperform most similarly sized models on a variety of benchmarks.
+            </p>
+          </td>
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -413,7 +470,14 @@
         </tbody></table>
 
        
-        <!-- Teaching stuff  -->
+        <!-- <heading style="padding-left:20px"> Talks </heading>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+          <ul>
+            <li> October 2023: <i>LeanDojo: Theorem Proving with Retrieval-Augmented Language Models</i> at Harvard, CMSA New Technologies in Mathematics seminar </li>
+            <li> May 2023: <i>What we need before even attempting to replace programmers with AI</i> at TEDxBoston </li>
+          </ul>
+        </tbody></table> -->
+
         <heading style="padding-left:20px"> Teaching Experience </heading>
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
           <ul>
@@ -624,7 +688,6 @@
           </td>
         </tbody></table>
       
-      
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <td style="padding:20px;width:25%;vertical-align:middle">
             <iframe width="300" height="200" src="https://www.youtube.com/embed/tm8NTuLqkZw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -644,7 +707,7 @@
           </td>
         </tbody></table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <td style="padding:20px;width:25%;vertical-align:middle">
             <iframe width="300" height="200" src="https://www.youtube.com/embed/miQD0g_h9rY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </td>
@@ -659,7 +722,7 @@
               II. Allegretto espressivo alla Romanza
             </p>
           </td>
-        </tbody></table>
+        </tbody></table> -->
 
         <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <td style="padding:20px;width:25%;vertical-align:middle">
@@ -728,7 +791,7 @@
           <tr>
             <td style="padding:0px">
               <br>
-              Thanks to <a href="https://jonbarron.info/">Jon Barron</a> for the awesome website template. Last updated on January 5, 2023. 
+              Thanks to <a href="https://jonbarron.info/">Jon Barron</a> for the awesome website template. Last updated on March 1, 2023. 
             </td>
           </tr>
         </tbody></table>
