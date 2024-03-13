@@ -25,6 +25,18 @@
                 I also did my bachelor's and Master's degrees at MIT, advised by Armando and <a href="https://www.mit.edu/~jda/">Jacob Andreas</a>. I have done internships at <a href="https://ai.facebook.com/">Meta AI Research</a>, <a href="https://www.janestreet.com/">Jane Street</a>, and <a href="https://pony.ai/">pony.ai</a>. My research is generously funded by the NSF GRFP. 
                 <br>
                 <br>
+                My research interests are to improve the capabilities of AI systems on tasks like programming and mathematics through methods such as 
+                <a href="http://www.neurosymbolic.org/">neurosymbolic programming</a>. 
+                The best part of doing a PhD is that I get to learn from all kinds of people, so feel free to reach out if you want to chat or collaborate!
+                Bandwidth permitting, I am also happy to mentor undergraduate students who are interested in my research and provide advice for people who would benefit from my experiences.
+                <br>
+                <br>
+                Outside research, I love music. I studied piano for over 15 years under inspiring pianists Yukiko Sekino and Chun-Chi An and
+                received a music minor in my undergraduate. As a highlight, I performed the first movement of 
+                <a href="https://www.youtube.com/watch?v=lIb2DgnhtsQ">Rachmaninoff's 2nd Piano Concerto</a> with the MIT Symphony Orchestra.
+                I occasionally perform <a href="https://www.youtube.com/@minimario1729">piano recitals</a> and rarely make <a href="https://soundcloud.com/alex-gu-254660687">EDM-like tracks and remixes.</a>
+                <br>
+                <br>
                 Email: gua [at] mit.edu
               </p>
               <p style="text-align:center">
@@ -47,6 +59,7 @@
             <tr>
             <td style="padding:20px;padding-top:0px;width:100%;vertical-align:middle">
               <heading>News</heading>
+              <p><b>[Mar 2024]</b> Check out <a href="https://livecodebench.github.io/">LiveCodeBench</a>, our new holistic and contamination-free code benchmark!</p>
               <p><b>[Feb 2024]</b> Our new work, <a href="https://counterfeit-code.github.io/">the counterfeit conundrum</a>, questions the ability of code language models to understand their own incorrect generations.</p>
               <p><b>[Feb 2024]</b> Released <a href="https://huggingface.co/blog/starcoder2">StarCoder2</a>, a new family of code LMs achieving SoTA on many code generation tasks for models of the same size.</p>
               <p><b>[Jan 2024]</b> Check out our new benchmark, <a href="https://crux-eval.github.io/">CRUXEval</a>, designed to test the ability of code LMs to perform code execution reasoning!</p>
@@ -66,7 +79,7 @@
           </tr>
         </tbody></table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;padding-top:0px;width:100%;vertical-align:middle">
               <heading>Research Interests</heading>
@@ -87,7 +100,7 @@
               </p>
             </td>
           </tr>
-        </tbody></table>
+        </tbody></table> -->
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
@@ -95,6 +108,33 @@
               <heading>Publications</heading>
             </td>
           </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two">
+              <img src='images/lcb.png' width="160">
+              </div>
+            </div>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://livecodebench.github.io/pdfs/paper.pdf">
+              <papertitle>
+                LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code
+              </papertitle>
+            </a>
+            <br>
+            Naman Jain, King Han, <strong>Alex Gu*</strong>, Wen-Ding Li*, Fanjia Yan*, Tianjun Zhang*, Sida Wang, Armando Solar-Lezama, Koushik Sen, Ion Stoica
+            <br>
+            <p></p>
+            <p>
+              <a href="https://livecodebench.github.io">LiveCodeBench</a> is a holistic and contamination-free
+              benchmark for code LMs. It consists of 4 tasks: code generation, self-repair, code execution, 
+              and test output prediction. We update the benchmark periodically with new high-quality problems 
+              from platforms like LeetCode, AtCoder, and Codeforces.
+            </p>
+          </td>
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -169,6 +209,7 @@
             <br>
             <strong>Alex Gu</strong>, Baptiste Rozière, Hugh Leather, Armando Solar-Lezama, Gabriel Synnaeve, Sida I. Wang
             <br>
+            <em>DMLR and DPFM Workshops @ ICLR 2024</em>
             <p></p>
             <p>
               <a href="https://crux-eval.github.io/">CRUXEval</a> is a benchmark of 800 Python functions 
@@ -470,13 +511,16 @@
         </tbody></table>
 
        
-        <!-- <heading style="padding-left:20px"> Talks </heading>
+        <heading style="padding-left:20px"> Talks </heading>
+        <p style="padding-left:20px"> If you find my work interesting, I am happy to give a talk, in-person along the Northeast Corridor (e.g. NYC, Boston) and virtually otherwise! </p>
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
           <ul>
-            <li> October 2023: <i>LeanDojo: Theorem Proving with Retrieval-Augmented Language Models</i> at Harvard, CMSA New Technologies in Mathematics seminar </li>
+            <li> March 2024: <i>Beyond Code Generation: Do code language models understand programs the same way humans do?</i> at Lei Lab (CMU, virtual) and Cornell Tech </li>
+            <li> February 2024: <i>CRUXEval: Code Reasoning, Understanding, and Execution Evaluation</i> at AGI Leap Summit (virtual) </li>
+            <li> October 2023: <i>LeanDojo: Theorem Proving with Retrieval-Augmented Language Models</i> at CMSA New Technologies in Mathematics seminar (Harvard) </li>
             <li> May 2023: <i>What we need before even attempting to replace programmers with AI</i> at TEDxBoston </li>
           </ul>
-        </tbody></table> -->
+        </tbody></table>
 
         <heading style="padding-left:20px"> Teaching Experience </heading>
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
@@ -500,7 +544,7 @@
         </tbody></table>
 
         <heading style="padding-left:20px"> Other Projects </heading>
-	<p style="padding-left:20px"> Here are some other projects I've worked on. If you're interested in building off any of them, I highly welcome collaborations! </p>
+    	<p style="padding-left:20px"> Here are some other projects I've worked on. If you're interested in building off any of them, I highly welcome collaborations! </p>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto"><tbody>
           <td style="padding:20px;width:95%;vertical-align:middle;padding-bottom:0px;padding-top:5px">
             <strong>
@@ -600,7 +644,7 @@
      
         <!-- Music stuff  -->
         <heading style="padding-left:20px"> Music </heading>
-        <p style="padding-left:20px"> I also study classical piano under <a href="http://yukikosekino.com/index.html">Yukiko Sekino</a>. Here are some recordings of concerts I have given in the past:</p>
+        <p style="padding-left:20px"> Previously, I studied classical piano under <a href="http://yukikosekino.com/index.html">Yukiko Sekino</a> and Chun-Chi An. Here are some recordings of concerts I have given in the past:</p>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <td style="padding:20px;width:25%;vertical-align:middle">
@@ -791,7 +835,7 @@
           <tr>
             <td style="padding:0px">
               <br>
-              Thanks to <a href="https://jonbarron.info/">Jon Barron</a> for the awesome website template. Last updated on March 1, 2023. 
+              Thanks to <a href="https://jonbarron.info/">Jon Barron</a> for the awesome website template. Last updated on March 13, 2023. 
             </td>
           </tr>
         </tbody></table>
